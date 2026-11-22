@@ -1,0 +1,1 @@
+var e={photo:1400,posters:1e3,mag:1049,cover:1400},t={photo:[300,600,900],posters:[400,700],mag:[420,760],cover:[480,640,960]};function n(n,r){let i=`/kkkkjokkya07/assets/${n}/${r}`,a=t[n],o=[...a.map(e=>`${i}-${e}.webp ${e}w`),`${i}.webp ${e[n]}w`].join(`, `);return{src:`${i}-${a[a.length-1]}.webp`,srcSet:o}}export{n as t};
